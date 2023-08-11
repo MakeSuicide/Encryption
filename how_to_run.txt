@@ -1,0 +1,16 @@
+these make the files
+gcc decrypt.c -o decrypt -lm
+gcc encrypt.c -o encrypt
+
+
+use ./encrypt to run the program.
+then you will be promted to enter a sentence.
+
+Enter a sentence
+hey ya
+43 104 102 126 78 151 152
+hey ya
+
+the last line decrypts the code as a check.
+just run ./decrypt and copy the numbers into
+the command line.
